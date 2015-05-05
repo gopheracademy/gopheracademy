@@ -1,0 +1,15 @@
+{{ partial "header.html" . }}
+
+<main class="container generic">
+    <section class="row"> 
+        <div class="col-md-8">
+            {{ .Content }}
+        </div><!-- generic col-md-10 -->
+
+        {{ partial "sidebar.html" . }}
+    </section>
+</main>
+
+<main>
+</main>
+{{ partial "footer.html" . }}
